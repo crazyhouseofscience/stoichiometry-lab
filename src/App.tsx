@@ -872,6 +872,10 @@ export default function App() {
           </motion.div>
         )}
       </AnimatePresence>
+
+      <div className="fixed bottom-4 left-6 text-[10px] text-stone-400 font-sans z-50">
+        Designed by Keith Chapman with Google AI Studio. 2026 v1.0
+      </div>
     </div>
   );
 }
